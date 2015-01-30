@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
                 String user = userName.getText().toString();
                 String pass = passWord.getText().toString();
                 if(user.equals(pass)){
-                    textTest.setText("Welcome to " + user);
+                    textTest.setText("Welcome " + user);
                 }
                 else {
                     textTest.setText("Error User and PassWord ");
